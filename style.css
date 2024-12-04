@@ -6,13 +6,12 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(145, 143, 143);
+    background-color: rgb(218, 215, 215);
 }
 
 .menu-nav{
-    background-color: rgb(129, 129, 129);
-    
-
+    background-color: rgb(158, 157, 157);
+    box-shadow: 0 2px 2px rgb(0,0,0,0.2);
 }
 
 .menu-nav ul{
@@ -89,3 +88,70 @@ display: block;
     color: black;
 }
 
+.newSeason{
+    display: flex;
+    margin-top: 30px;
+}
+
+.nsItem{
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nsImg{
+    width: 100%;
+    height: 500px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.nsTitle{
+    font-size: 40px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.nsItem a{
+    text-decoration: none;
+    color: #000000;
+}
+.nsItem a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nsButton{
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
