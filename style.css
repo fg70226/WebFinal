@@ -290,3 +290,36 @@ button{
     padding: 10px 20px;
     cursor: pointer;
 }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.offer{
+    background: radial-gradient(#fff,rgb(109,110,110));
+    margin: auto;
+    padding: 30px 0;
+}
+.col22{
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.col22 img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.col22 p{
+    font-size: 25px;
+    margin: 0 0 0px 0;
+}
+.col22 h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 0px 0;
+}
+.col22 small{
+    font-size: 15px;
+}
+
