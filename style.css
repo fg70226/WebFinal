@@ -290,16 +290,22 @@ button{
     padding: 10px 20px;
     cursor: pointer;
 }
-.row{
+
+
+
+.offer .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
+
 .offer{
     background: radial-gradient(#fff,rgb(109,110,110));
     margin: auto;
     padding: 30px 0;
+    
 }
 .col22{
     flex-basis: 30%;
@@ -308,10 +314,12 @@ button{
 .col22 img{
     overflow-clip-margin: content-box;
     overflow: clip;
+    
 }
 .col22 p{
     font-size: 25px;
     margin: 0 0 0px 0;
+    
 }
 .col22 h1{
     display: block;
@@ -369,6 +377,8 @@ button{
 }
 .brands{
     margin: 100px auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .col-5{
     width: 160px;
@@ -405,14 +415,16 @@ button{
 }
 .footer-col-1{
     flex-basis: 30%;
+    padding-left: 20px;
 }
 .footer-col-2{
     flex: 1;
     text-align: center;
 }
 .footer-col-2 img{
-    width: 85px;
+    width: 93px;
     margin-bottom: 20px;
+    border-radius: 200px;
 }
 .footer-col-3,.footer-col-4{
     flex-basis: 12%;
@@ -426,6 +438,7 @@ ul{
 }
 .app-logo img{
     width: 140px;
+   
 }
 .footer hr{
     border: none;
