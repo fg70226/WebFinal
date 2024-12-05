@@ -52,11 +52,12 @@ body{
 .menu-nav a:hover{
     color: white;
     
+    
 }
     
 
 .menu-nav ul li ul{
-    
+ 
     display: none;
     position: absolute;
     background-color: rgb(223, 230, 236);
@@ -67,8 +68,8 @@ body{
     min-width:200px;
    z-index: 999;
 
-
 }
+
 .menu-nav ul li:hover ul{
     display: block;
 
@@ -83,9 +84,10 @@ display: block;
 
 
 .menu-nav ul li ul li a:hover{
-    background-color: white;
     color: black;
+    background-color: white;
 }
+
 
 .newSeason{
     display: flex;
