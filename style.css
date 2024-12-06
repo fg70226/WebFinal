@@ -282,7 +282,7 @@ i{
 .add-to-cart-button{
     background-color: #455763;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 20px;
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -293,7 +293,7 @@ button{
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 20px;
     cursor: pointer;
 }
 
