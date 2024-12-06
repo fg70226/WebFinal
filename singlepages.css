@@ -93,21 +93,26 @@ nav a:hover{
     width: 100%;
 }
 .product-image-main img{
-    display: block;
-    padding-top: 100px;
-    width: 60%;
+    display:block;
+    padding:20px 20px 20px 20px;
+    width: 80%;
     height:60%;
     object-fit: contain;
-    padding-left: 20px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 100px 60px 30px 60px;
 }
+
+
 .product-image-slider img{
     width: 100px;
-    height: 90px;
+    height: 100px;
     padding-left:  20px;
-    padding-top: 5px;
+    padding-top: 10px;
     cursor: pointer;
     justify-content: space-between;
 }
+
 .product-title{
     margin-top: 20px;
 }
@@ -140,13 +145,13 @@ nav a:hover{
     margin: 10px 0;
 }
 .product details h3{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 .product-details p{
     margin: 5px 0;
-    font-size: 14px;
-    line-height: 1.2rem;
+    font-size: 15px;
+    line-height: 1.4rem;
 }
 
 
@@ -190,7 +195,7 @@ nav a:hover{
     color: white;
 }
 
-
+/*
 .product-size .size-layout 
 input[type="radio"]:checked+.size{
     background-color: rgb(35,35,35);
@@ -198,7 +203,7 @@ input[type="radio"]:checked+.size{
     color: var(--bg-grey);
     box-shadow: 0 3px 6px var(--shadow);
 
-}
+}*/
 
 .product-color{
     margin: 10px 0;
@@ -235,10 +240,13 @@ input[type="radio"]:checked+.size{
 .product-color .color-layout .blue{
     background-color: rgb(241, 189, 130);
 }
+
+/*
 .product-color .color-layout
 input[type="radio"]:checked+label{
-    box-shadow: 0 3px 6px var(--shadow);
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
 }
+    */
 
 .product-color .color-layout .color-input{
     display: none;
@@ -280,6 +288,7 @@ input[type="radio"]:checked+label{
 .product-btn-group .buy-now:hover{
     background-color:  black;
     color: white;
+    transition: 0.7s;
 }
 .product-btn-group .add-cart{
     background-color: white;
@@ -297,6 +306,7 @@ input[type="radio"]:checked+label{
 
     background-color:  black;
     color: white;
+    transition: 0.7s;
 }
 
 
@@ -314,5 +324,8 @@ input[type="radio"]:checked+label{
 .product-btn-group .heart:hover{
     background-color:  black;
     color: white;
+    transition: 0.7s;
+    
+
 }
 
