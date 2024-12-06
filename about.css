@@ -85,16 +85,17 @@ nav a:hover{
     text-align: left;
 }
 
+.about-image{
+    display: flex;
+    justify-content: center;
+}
 .about-image img{
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: auto;
     border-radius: 200px;
     object-fit: contain;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 50px;
-    margin-top:20px;
-    margin-bottom: 60px;
+   
+  
 }
 
 .about-info p{
@@ -205,6 +206,7 @@ button:hover{
 .footer-col-2 img{
     width: 85px;
     margin-bottom: 20px;
+    border-radius: 200px;
 }
 .footer-col-3,.footer-col-4{
     flex-basis: 12%;
