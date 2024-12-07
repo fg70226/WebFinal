@@ -6,7 +6,8 @@ document.getElementById('myform').addEventListener('submit' , function (event) {
     let user = document.getElementById('user').value.trim();
     let pass = document.getElementById('pass').value;
 
-    let userPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let userPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
 
     if(!userPattern.test(user)) {
         errors.push("You must enter a valid email address.");
