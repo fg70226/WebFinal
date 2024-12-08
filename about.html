@@ -34,7 +34,9 @@
              Whether you're dressing for a special occasion, elevating your everyday wardrobe, or searching <br>
              for the perfect statement piece, we are here to help you feel confident and look your best.<br>
         </p>
-        <button>Read More...</button>
+        <div id="displayText"></div>
+        <button id="btn">Read More...</button>
+        
         </div>
     </div>
    </section>
@@ -116,5 +118,23 @@
         <p class="copyright">Copyright 2024-F&R Luxe</p>
     </div>
    </div>
+
+   <script>
+    document.getElementById("btn").addEventListener("click" , function () {
+        const text = `At <strong>F&R Luxe </strong>, our mission is to offer a thoughtfully curated collection <br> 
+        of premium clothing that seamlessly blends comfort, elegance, and contemporary design. Each piece is<br>
+        crafted with care, ensuring it not only complements your wardrobe but also empowers you to express <br>
+     your unique personality.<br>
+     We believe that fashion is an art form and a means of self-expression. <br>
+     Whether you're stepping into a boardroom, attending an elegant soirée,<br>
+      or simply enjoying a casual day out, our versatile styles are designed to celebrate<br>
+     who you are and how you live.`;
+
+     const displayTextDiv=document.getElementById("displayText");
+     displayTextDiv.innerHTML = text;
+     displayTextDiv.style.display = "block";
+    });
+   </script>
+   
 </body>
 </html>
