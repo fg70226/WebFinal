@@ -146,7 +146,10 @@ img{
     cursor: pointer;
     text-decoration: underline;
 }
-.nsButton{
+.nsItem p{
+    color: white;
+}
+/*.nsButton{
     padding: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -159,6 +162,23 @@ button{
     padding: 10px 20px;
     cursor: pointer;
     padding-bottom: 20px;
+}*/
+.btn .b{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 10px;
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+}
+.btn .b a{
+    text-decoration: none;
+    color: black;
+}
+.btn .b:hover{
+    color: white;
+    background-color: rgb(95,94 94);
 }
 .smallcontainer{
     margin: auto;
