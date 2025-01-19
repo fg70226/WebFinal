@@ -173,7 +173,7 @@ button:hover{
     object-fit: fill;
  }
  .card-info button{
-    margin:2rem 1 rem;
+    margin:2rem 1rem;
  }
 
  .card-email{
@@ -238,4 +238,28 @@ ul{
 }
 .copyright{
     text-align: center;
+}
+
+@media (max-width:768px){
+    .about-info p{
+        font-size: 20px;
+    }
+
+    .about-image{
+        width: 0px;
+    }
+   #btn{
+    width: 50%;
+   }
+   #displayText{
+    font-size: 20px;
+   }
+   .card{
+    display: block;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   }
 }
