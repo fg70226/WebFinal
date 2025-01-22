@@ -201,3 +201,13 @@ ul{
 .copyright{
     text-align: center;
 }
+
+@media (max-width:768px){
+    .my-form-container{
+        width:100%;
+
+        display: flex;
+        align-items: center;
+    }
+        
+}
