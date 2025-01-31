@@ -91,6 +91,7 @@ body{
         display: none;
         position: absolute;
     }
+
 #kontenti header h2{
     text-align: center;
     margin-bottom: 20px;
@@ -129,8 +130,10 @@ input[type="radio"]{
 input[type="radio"]:hover{
     background-color: white;
 }
-    .menu-toggle {
-        display: none;
+
+
+.menu-toggle {
+     display: none;
         font-size: 30px;
         cursor: pointer;
         background: none;

@@ -1,3 +1,9 @@
+<?php
+
+include "Welcome.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,20 +20,21 @@
        
         <ul>
             <img src="logo.avif" class="logo">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="services"><a href="#">Products</a>
                 <ul class="drop-down">
-                        <li><a href="man.html" target="_blank">Man</a></li>
-                        <li><a href="women.html" target="_blank">Women</a></li>
+                        <li><a href="man.php" target="_blank">Man</a></li>
+                        <li><a href="women.php" target="_blank">Women</a></li>
                 </ul>
             
             </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li class="services"><a href="#"><i class="fa-solid fa-circle-user"></i></a>
                 <ul class="drop-down">
-                    <li><a href="login.html">Log in</a></li>
-                    <li><a href="signup.html">Sign up</a></li>
+                    <li><a href="login.php">Log in</a></li>
+                    <li><a href="signup.php">Sign up</a></li>
+                    <li><a href="logout.php">Log out</a></li>
                 </ul>
             </li>
         </ul>
@@ -48,14 +55,16 @@
             <h1 class="nsTitle">New Collection</h1>
             <p>CHOOSE YOUR STYLE</p>
             <div class="btn">
-                <button class="b"><a href="man.html">Man</a></button>
-                <button class="b"><a href="women.html">Woman</a></button>
+                <button class="b"><a href="man.php">Man</a></button>
+                <button class="b"><a href="women.php">Woman</a></button>
             </div>
         </div>
         <div class="nsItem">
             <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="nsImg">
         </div>
     </div>
+
+ 
     <div id="kontenti">
         <header>
             <h2>Our luxe brands</h2>
@@ -70,7 +79,6 @@
     </div>
 
 
-    
 
     <div class="smallcotainer">
         <h2 class="title">Featured Products</h2>
@@ -335,6 +343,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="testimonial">
         <div class="small-container">

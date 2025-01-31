@@ -8,14 +8,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $connection = $db->getConnection();
     $user = new User($connection);
 
-    // Get form data
+  
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // Attempt to log in
-    if ($user->login($email, $password)) {
-        header("Location: home.php"); // Redirect to home page
-        exit;
+  
+    $login_result = $user->login($email, $password);
+
+    if ($login_result == 'admin') {
+        echo "<script>window.location.href = 'admin.php';</script>";
+    } elseif ($login_result == 'user') {
+        echo "<script>window.location.href = 'index.php';</script>";
     } else {
         echo "Invalid login credentials!";
     }
@@ -39,9 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <nav>
             <div class="logo">F&R Luxe</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
        </header>  
@@ -106,7 +109,38 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
        </div>
 
-    <script src="login.js"></script>
+    <script>
+        document.getElementById('myform').addEventListener('submit' , function (event) {
+    
+
+    let errors = [];
+
+    let user = document.getElementById('user').value.trim();
+    let pass = document.getElementById('pass').value;
+
+    let userPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+
+    if(!userPattern.test(user)) {
+        errors.push("You must enter a valid email address.");
+
+    }
+
+    if(pass.length < 6) {
+        if(errors.length === 0) {
+            errors.push("The password must contain at least 6 characters.");
+    }
+}
+let errorsContainer = document.getElementById('errors');
+if(errors.length > 0) {
+    errorsContainer.innerHTML = errors[0];
+    errorsContainer.className = 'error';
+
+}  
+
+});
+
+    </script>
 </body>
 </html>
 

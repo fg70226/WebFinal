@@ -1,62 +1,76 @@
-
 <?php
-
 class User {
-    private $conn; // Lidhja me bazën e të dhënave
-    private $table_name = 'user'; // Emri i tabelës
+    private $conn;
+    private $table_name = 'user';
 
-    // Konstruktor për të marrë lidhjen me bazën e të dhënave
     public function __construct($db) {
         $this->conn = $db;
     }
 
-    // Metoda për regjistrim
-    public function register($name, $surname, $email, $password, $date) {
-        $query = "INSERT INTO {$this->table_name} (name, surname, email, password, date) 
-                  VALUES (:name, :surname, :email, :password, :date)";
+    public function register($name, $surname, $email, $password ) {
+        $query = "INSERT INTO {$this->table_name} (name, surname, email, password ) VALUES (:name, :surname, :email, :password )";
 
         $stmt = $this->conn->prepare($query);
 
-        // Lidheni parametrat
+        $hashed_password = password_hash($password , PASSWORD_DEFAULT);
+
+    
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':surname', $surname);
         $stmt->bindParam(':email', $email);
-        $stmt->bindParam(':date', $date);
-        $stmt->bindParam(':password', password_hash($password, PASSWORD_DEFAULT)); // Fjalëkalim i hash-uar
-
-        // Ekzekuto pyetjen
+        $stmt->bindParam(':password', $hashed_password); 
+        
         if ($stmt->execute()) {
             return true;
         }
         return false;
     }
 
-    // Metoda për hyrje (login)
     public function login($email, $password) {
-        $query = "SELECT id, name, surname, email, password, date 
-                  FROM {$this->table_name} WHERE email = :email";
-
+        $query = "SELECT id, name, surname, email, password, role FROM {$this->table_name} WHERE email = :email";
+    
         $stmt = $this->conn->prepare($query);
         $stmt->bindParam(':email', $email);
         $stmt->execute();
-
-        // Kontrollo nëse ekziston përdoruesi
+    
+        
         if ($stmt->rowCount() > 0) {
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
-
-            // Verifiko fjalëkalimin
+    
+            
+            echo "<pre>";
+            print_r($row);
+            echo "</pre>";
+    
+            
             if (password_verify($password, $row['password'])) {
-                // Filloni sesionin dhe ruani të dhënat e përdoruesit
-                session_start();
+                
+                echo "Password verified! Role: " . $row['role'];
+    
+                
                 $_SESSION['user_id'] = $row['id'];
-                $_SESSION['name'] = $row['name'];
-                $_SESSION['surname'] = $row['surname'];
                 $_SESSION['email'] = $row['email'];
-                return true;
+                $_SESSION['role'] = $row['role']; 
+    
+            
+                if ($row['role'] == 'admin') {
+                    return 'admin';
+                } else {
+                    return 'user';
+                }
+            } else {
+                
+                echo "Password verification failed!";
             }
+        } else {
+            
+            echo "No user found with email: " . $email;
         }
         return false;
     }
 }
-
 ?>
+
+
+
+
