@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike Cap</title>
+    <title>Cargo Pants Girl</title>
     <link rel="stylesheet" href="singlepages.css">
 </head>
 <body>
@@ -11,25 +11,29 @@
         <nav>
             <div class="logo">F&R Luxe</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>  
+
+
+    
     <div class="container">
         <div class="single-product">
             <div class="row">
                 <div class="col-6">
                     <div class="product-image">
                         <div class="product-image-main">
-                            <img src="IMG_3.jpg" id="product-main">
+                            <img src="cargo.pants.jpg.webp" id="product-main">
                         </div>
+                       
                     </div>
                 </div>
                 <div class="product">
                     <div class="product-title">
-                        <h2>Nike Cap</h2>
+                        <h2>Cargo Pants For Girl</h2>
                     </div>
                     <div class="product-price">
                         <span class="offer-price">$49.95</span>
@@ -70,13 +74,12 @@
                     </div>
                     <span class="divider"></span>
                     <div class="product-btn-group">
-                        <div class="button buy-now"><i class=""></i>Buy Now</div>
-                        <div class="button add-cart"><i class=""></i>Add to Cart</div>
-                        <div class="button heart"><i class=""></i>Add to Wishlist</div>
+                        <div class="button buy-now"><i class=""></i><a href="buy.php">Buy Now</a></div>
                     </div>
                 </div>
             </div>
         </div>
+    
     </div>
     <div class="footer">
         <div class="container">

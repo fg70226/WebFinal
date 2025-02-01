@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike trousers</title>
-    <link rel="stylesheet" href="singlepages.css">
+    <title>Varsity Jacket</title>
+    <link rel="stylesheet" href="varsityg.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">F&R Luxe</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>  
@@ -23,16 +23,16 @@
                 <div class="col-6">
                     <div class="product-image">
                         <div class="product-image-main">
-                            <img src="IMG_4.jpg" id="product-main">
+                            <img src="varsity.girl.jpg.webp" id="product-main">
                         </div>
                     </div>
                 </div>
                 <div class="product">
                     <div class="product-title">
-                        <h2>Nike Trousers</h2>
+                        <h2>Varsity Jacket</h2>
                     </div>
                     <div class="product-price">
-                        <span class="offer-price">$114.95</span>
+                        <span class="offer-price">$129.95</span>
                     </div>
                     <div class="product-details">
                         <h3>Description</h3>
@@ -70,9 +70,7 @@
                     </div>
                     <span class="divider"></span>
                     <div class="product-btn-group">
-                        <div class="button buy-now"><i class=""></i>Buy Now</div>
-                        <div class="button add-cart"><i class=""></i>Add to Cart</div>
-                        <div class="button heart"><i class=""></i>Add to Wishlist</div>
+                    <div class="button buy-now"><a href="buy.php">Buy Now</a></div>
                     </div>
                 </div>
             </div>

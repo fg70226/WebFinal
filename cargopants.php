@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cargo Pants Girl</title>
+    <title>Cargo Pants For Boy</title>
     <link rel="stylesheet" href="singlepages.css">
 </head>
 <body>
@@ -11,29 +11,25 @@
         <nav>
             <div class="logo">F&R Luxe</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>  
-
-
-    
     <div class="container">
         <div class="single-product">
             <div class="row">
                 <div class="col-6">
                     <div class="product-image">
                         <div class="product-image-main">
-                            <img src="illyrian.beanie.jpg" id="product-main">
+                            <img src="cargob.jpg.webp" id="product-main">
                         </div>
-                        
                     </div>
                 </div>
                 <div class="product">
                     <div class="product-title">
-                        <h2>Illyrian Beanie</h2>
+                        <h2>Cargo Pants For Boy</h2>
                     </div>
                     <div class="product-price">
                         <span class="offer-price">$49.95</span>
@@ -74,18 +70,14 @@
                     </div>
                     <span class="divider"></span>
                     <div class="product-btn-group">
-                        <div class="button buy-now">Buy Now</div>
-                        <div class="button add-cart">Add to Cart</div>
-                        <div class="button heart">Add to Wishlist</div>
+                    <div class="button buy-now"><a href="buy.php">Buy Now</a></div>
                     </div>
                 </div>
             </div>
         </div>
-    
     </div>
-
     <div class="footer">
-        <div class="container1">
+        <div class="container">
             <div class="row1">
                 <div class="footer-col-1">
                     <h3>Download Our App</h3>
@@ -121,7 +113,6 @@
             <hr>
             <p class="copyright">Copyright 2024-F&R Luxe</p>
         </div>
-       </div>
-   
+    </div>
 </body>
 </html>

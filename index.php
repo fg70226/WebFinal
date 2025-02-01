@@ -84,7 +84,7 @@ include "Welcome.php";
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col4">
-                <a href="cargo1.html"><img src="cargo.pants.jpg.webp" alt=""></a>
+                <a href="cargo1.php"><img src="cargo.pants.jpg.webp" alt=""></a>
                 <h4>Cargo Pants</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -95,10 +95,9 @@ include "Welcome.php";
                 </div>
                 <p>$49.95</p>
 
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="cargopants.html"><img src="cargob.jpg.webp" alt=""></a>
+                <a href="cargopants.php"><img src="cargob.jpg.webp" alt=""></a>
                 <h4>Cargo Pants</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -108,11 +107,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="varsityg.html"><img src="varsity.girl.jpg.webp" alt=""></a>
+                <a href="varsityg.php"><img src="varsity.girl.jpg.webp" alt=""></a>
                 <h4>Varsity Jacket</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -122,11 +119,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$129.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="varsityb.html"><img src="varsity.boy.jpg.webp" alt=""></a>
+                <a href="varsityb.php"><img src="varsity.boy.jpg.webp" alt=""></a>
                 <h4>Boohoo Man Jacket</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -136,15 +131,13 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$114.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
         </div>
 
         <h2 class="title">Nike Products</h2>
         <div class="row">
             <div class="col4">
-                <a href="nikehoodies.html"><img src="IMG_1.jpg" alt=""></a>
+                <a href="nikehoodies.php"><img src="IMG_1.jpg" alt=""></a>
                 <h4>Nike Hoddies</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -154,11 +147,9 @@ include "Welcome.php";
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="nikesneakers.html"><img src="nike1.jpg" alt=""></a>
+                <a href="nikesneakers.php"><img src="nike1.jpg" alt=""></a>
                 <h4>Nike Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -168,11 +159,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="nikecap.html"><img src="IMG_3.jpg" alt=""></a>
+                <a href="nikecap.php"><img src="IMG_3.jpg" alt=""></a>
                 <h4>Nike Cap</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -182,11 +171,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$129.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href="niketrousers.html"><img src="IMG_4.jpg" alt=""></a>
+                <a href="niketrousers.php"><img src="IMG_4.jpg" alt=""></a>
                 <h4>Nike trousers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -196,14 +183,12 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$114.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
         </div>
         <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col4">
-                <a href="iilyrian-beanie.html"><img src="illyrian.beanie.jpg" alt=""></a>
+                <a href="iilyrian-beanie.php"><img src="illyrian.beanie.jpg" alt=""></a>
                 <h4>Illyrian Beanie</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -213,12 +198,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$15.55</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="sweater.html"><img src="illyrian.1sweater.jpg" alt=""></a>
+                <a href="sweater.php"><img src="illyrian.1sweater.jpg" alt=""></a>
                 <h4>The bloodline Sweater-Blue</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -228,12 +210,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$60.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="illyriancap.html"><img src="illyrian.cap2.jpg" alt=""></a>
+                <a href="illyriancap.php"><img src="illyrian.cap2.jpg" alt=""></a>
                 <h4>Classical Illyrian Cap-Stone</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -243,12 +222,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="anothercap.html"><img src="Illyrianhoodiebrown.webp" alt=""></a>
+                <a href="anothercap.php"><img src="Illyrianhoodiebrown.webp" alt=""></a>
                 <h4>Illyrian B Hoddie Brown</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -258,13 +234,10 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$149.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
 
             <div class="col4">
-                <a href="polo.html"><img src="polo.jpg" alt=""></a>
+                <a href="polo.php"><img src="polo.jpg" alt=""></a>
                 <h4>POLO Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -274,12 +247,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$249.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="prada.html"><img src="prada.jpg" alt=""></a>
+                <a href="prada.php"><img src="prada.jpg" alt=""></a>
                 <h4>PRADA Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -289,12 +259,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$349.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="gucci.html"><img src="gucci..jpg" alt=""></a>
+                <a href="gucci.php"><img src="gucci..jpg" alt=""></a>
                 <h4>GUCCI Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -304,12 +271,9 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$355.90</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
             <div class="col4">
-                <a href="dg.html"><img src="D&G.jpg" alt=""></a>
+                <a href="dg.php"><img src="D&G.jpg" alt=""></a>
                 <h4>DOLCE&GABANA Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -319,9 +283,6 @@ include "Welcome.php";
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$324.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
-
             </div>
 
         </div>
