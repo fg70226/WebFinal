@@ -7,18 +7,21 @@ class Product {
         $this->conn = $db;
     }
 
+
+    
    
-    public function addProduct($name, $image, $description = null) {
-        $query = "INSERT INTO " . $this->table_name . " (name, image, description) VALUES (:name, :image, :description)";
+    public function addProduct($name, $size,$image , $description ,$price) {
+        $query = "INSERT INTO " . $this->table_name . " (name,size, image, description ,price) VALUES (:name,:size, :image, :description ,:price)";
         $stmt = $this->conn->prepare($query);
 
         $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':size', $size);
         $stmt->bindParam(':image', $image);
-        $stmt->bindParam(':description', $description);
+        $stmt->bindParam(':description' , $description);
+        $stmt->bindParam(':price' , $price);
 
         return $stmt->execute(); 
     }
-
 
 
 
@@ -47,9 +50,6 @@ class Product {
         $stmt->execute();
         return $stmt;
     }
-
-
 }
-
 
 ?>

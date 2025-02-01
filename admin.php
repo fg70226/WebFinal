@@ -170,7 +170,7 @@ try {
             <ul>
                 <li><a href="admin.php">Dashboard</a></li>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Products</a></li>
+                <li><a href="productadmin.php">Products</a></li>
                 <li><a href="logout.php">Log out</a></li>
             </ul>
         </div>
