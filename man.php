@@ -23,7 +23,7 @@
     <h2 class="title">MAN</h2>
     <div class="row">
         <div class="col4">
-            <a href=""><img src="illyrian.tshirt.jpg.webp" alt=""></a>
+            <a href="man1.php"><img src="illyrian.tshirt.jpg.webp" alt=""></a>
             <h4>Baseball T-shirt Black/Gray</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -33,11 +33,9 @@
                 <i class="fa fa-star-o"></i>
             </div>
             <p>$49.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.hoodie.jpg.webp" alt=""></a>
+            <a href="man2.php"><img src="illyrian.hoodie.jpg.webp" alt=""></a>
             <h4>Bloodline Hoodie White</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -47,11 +45,9 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$89.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.cap.jpg.webp" alt=""></a>
+            <a href="man3.php"><img src="illyrian.cap.jpg.webp" alt=""></a>
             <h4>Classical Illyrian Cap-Stone</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -61,11 +57,9 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$34.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.trousers1.jpg.webp" alt=""></a>
+            <a href="man4.php"><img src="illyrian.trousers1.jpg.webp" alt=""></a>
             <h4>Bloodline Hoodie Grey</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -75,15 +69,13 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$114.95</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
     </div>
 
 
     <div class="row">
         <div class="col4">
-            <a href=""><img src="illyrian.slides.jpg.webp" alt=""></a>
+            <a href="man5.php"><img src="illyrian.slides.jpg.webp" alt=""></a>
             <h4>Illyrian Slides-White</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -93,11 +85,9 @@
                 <i class="fa fa-star-o"></i>
             </div>
             <p>$29.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.trousers.jpg.webp" alt=""></a>
+            <a href="man6.php"><img src="illyrian.trousers.jpg.webp" alt=""></a>
             <h4>Illrian Signature Hoodie-Washed Black</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -107,11 +97,9 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$99.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.sweater.jpg.webp" alt=""></a>
+            <a href="man7.php"><img src="illyrian.sweater.jpg.webp" alt=""></a>
             <h4>The Bloodline Sweater-Blue</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -121,11 +109,9 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$34.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
         <div class="col4">
-            <a href=""><img src="illyrian.socks.jpg.webp" alt=""></a>
+            <a href="man8.php"><img src="illyrian.socks.jpg.webp" alt=""></a>
             <h4>Illyrian Bloodline Sock</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -135,8 +121,6 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <p>$9.90</p>
-            <button class="buy-button">Buy</button>
-            <button class="add-to-cart-button">Add to Cart</button>
         </div>
     </div>
 

@@ -28,7 +28,7 @@
         <div class="row">
            
             <div class="col4">
-                <a href=""><img src="w9.webp" alt=""></a>
+                <a href="womanshirt.php"><img src="w9.webp" alt=""></a>
                 <h4>Illyrian Bloodline Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -38,11 +38,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="w2.jpg" alt=""></a>
+                <a href="woman_nike_shirt.php"><img src="w2.jpg" alt=""></a>
                 <h4>Nike Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -52,11 +50,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$49.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="w3.png" alt=""></a>
+                <a href="woman_jacket.php"><img src="w3.png" alt=""></a>
                 <h4>Illyrian Bloodline Jacket</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -66,11 +62,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$129.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="nike.png" alt=""></a>
+                <a href="nike_green_set.php"><img src="nike.png" alt=""></a>
                 <h4>Nike Set</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -80,14 +74,12 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$114.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
         </div>
 
         <div class="row">
             <div class="col4">
-                <a href=""><img src="w5.jpg" alt=""></a>
+                <a href="nike_blue_set.php"><img src="w5.jpg" alt=""></a>
                 <h4>Nike Set</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -97,11 +89,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$149.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="w6.png" alt=""></a>
+                <a href="nike_red_set.php"><img src="w6.png" alt=""></a>
                 <h4>Nike Set</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -111,11 +101,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$149.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="w8.webp" alt=""></a>
+                <a href="illyrian_set.php"><img src="w8.webp" alt=""></a>
                 <h4>Illyrian Bloodline Set</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -125,11 +113,9 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$129.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
             <div class="col4">
-                <a href=""><img src="w7.jpg" alt=""></a>
+                <a href="nike_black_set.php"><img src="w7.jpg" alt=""></a>
                 <h4>Nike set</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -139,8 +125,6 @@
                     <i class="fa fa-star"></i>
                 </div>
                 <p>$114.95</p>
-                <button class="buy-button">Buy</button>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
         </div>
         
