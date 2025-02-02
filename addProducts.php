@@ -14,12 +14,14 @@ try {
     die("Query failed: " . $e->getMessage());
 }
 
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];
     $size = $_POST['size'];
     $description = $_POST['description'];
     $price = $_POST['price'];
 
+   
     if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
         $image_name = basename($_FILES['image']['name']);
         $target_dir = "uploads/";
@@ -36,10 +38,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     if ($product->addProduct($name, $size, $image, $description, $price)) {
-        echo "<script>alert('Product added successfully!'); window.location.href='product.php';</script>";
+        echo "<script>alert('Product added successfully!'); window.location.href='addProducts.php';</script>";
     } else {
         echo "<script>alert('Error while adding product.');</script>";
     }
+
+ 
 }
 ?>
 
@@ -54,125 +58,131 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    }
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
 
-    .dashboard {
-        display: flex;
-        min-height: 100vh;
-    }
+     
+        .dashboard {
+            display: flex;
+            min-height: 100vh;
+        }
 
-    .sidebar {
-        width: 250px;
-        background-color: #2c3e50;
-        color: #fff;
-        padding: 20px;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    }
+       
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: black;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
 
-    .sidebar h2 {
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 24px;
-    }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
 
-    .sidebar ul {
-        list-style: none;
-        padding: 0;
-    }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    .sidebar ul li {
-        margin: 15px 0;
-    }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
 
-    .sidebar ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
-        padding: 10px;
-        border-radius: 4px;
-        transition: background 0.3s;
-    }
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
 
-    .sidebar ul li a:hover {
-        background-color: #34495e;
-    }
+        .sidebar ul li a:hover {
+            background-color: #34495e;
+        }
 
-    .main-content {
-        flex: 1;
-        padding: 20px;
-        background-color: #fff;
-        flex-direction:start;
-    }
+       
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            flex-direction:start;
+        }
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 20px;
-    }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-    .header h1 {
-        font-size: 28px;
-        color: #333;
-    }
+        .header h1 {
+            font-size: 28px;
+            color: #333;
+        }
 
-    .header .user-info {
-        display: flex;
-        align-items: center;
-    }
+        .header .user-info {
+            display: flex;
+            align-items: center;
+        }
 
-    .header .user-info span {
-        margin-right: 10px;
-        font-size: 16px;
-        color: #555;
-    }
+        .header .user-info span {
+            margin-right: 10px;
+            font-size: 16px;
+            color: #555;
+        }
 
-    .header .user-info img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-    }
+        .header .user-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-    }
+       
+       
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
 
-    table, th, td {
-        border: 1px solid #ddd;
-    }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
 
-    th, td {
-        padding: 10px;
-        text-align: left;
-    }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
 
-    th {
-        background-color: #2c3e50;
-        color: #fff;
-    }
+        th {
+            background-color: #2c3e50;
+            color: #fff;
+        }
 
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
 
-    tr:hover {
-        background-color: #f1f1f1;
-    }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
 
-    .footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #2c3e50;
-        color: #fff;
-        margin-top: auto;
-    }
-        
+       
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #fff;
+            margin-top: auto;
+        }
+       
 .form-container {
     background-color: #fff;
     border-radius: 8px;
@@ -207,7 +217,7 @@ input[type="file"] {
             font-size: 16px;
             cursor: pointer;
         }
-    
+   
 </style>
 <body>
 
@@ -217,7 +227,8 @@ input[type="file"] {
         <ul>
             <li><a href="admin.php">Dashboard</a></li>
             <li><a href="index.php">Home</a></li>
-            <li><a href="productAdmin.php">Products</a></li>
+            <li><a href="productAdmin.php">Product Menagment</a></li>
+            <li><a href="addProducts.php">Add Products</a></li>
             <li><a href="logout.php">Log out</a></li>
         </ul>
     </div>
@@ -252,8 +263,6 @@ input[type="file"] {
                 <th>Image</th>
                 <th>Description</th>
                 <th>Price</th>
-                <th>Edit</th>
-                <th>Delete</th>
             </tr>
             <?php
             if (count($result_products) > 0) {
@@ -265,9 +274,6 @@ input[type="file"] {
                         <td><img src='{$row['image']}' width='50'></td>
                         <td>{$row['description']}</td>
                         <td>\${$row['price']}</td>
-                         <td>
-                    <a href='product.php?edit={$row['id']}'> Edit</a></td>
-                    <td> <a href='product.php?delete={$row['id']}' onclick='return confirm(\"Are you sure?\")'> Delete</a></td>
                     </tr>";
                 }
             } else {

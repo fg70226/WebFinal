@@ -168,11 +168,12 @@ try {
         <div class="sidebar">
             <h2>Admin Panel</h2>
             <ul>
-                <li><a href="admin.php">Dashboard</a></li>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="productadmin.php">Products</a></li>
-                <li><a href="logout.php">Log out</a></li>
-            </ul>
+            <li><a href="admin.php">Dashboard</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="productAdmin.php">Product Menagment</a></li>
+            <li><a href="addProducts.php">Add Products</a></li>
+            <li><a href="logout.php">Log out</a></li>
+        </ul>
         </div>
 
         
