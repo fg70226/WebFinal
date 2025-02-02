@@ -49,7 +49,7 @@
                 <h2 class="card-info">Jane</h2>
                 <p class="card-role">CEO AND FOUNDER</p>
                 <p class="card-email">example@example.com</p>
-                <p><a href="contact.html"><button>Contact</button></a></p>
+                <p><a href="contact.php"><button>Contact</button></a></p>
             </div>
         </div>
         <div class="card">
@@ -60,7 +60,7 @@
                 <h2 class="card-info">Rita</h2>
                 <p class="card-role">CO-FOUNDER</p>
                 <p class="card-email">example@example.com</p>
-                <p><a href="contact.html"><button>Contact</button></a></p>
+                <p><a href="contact.php"><button>Contact</button></a></p>
             </div>
         </div>
         <div class="card">
@@ -71,7 +71,7 @@
                 <h2 class="card-info">Fjolla</h2>
                 <p class="card-role">CO-FOUNDER</p>
                 <p class="card-email">example@example.com</p>
-                <p><a href="contact.html"><button>Contact</button></a></p>
+                <p><a href="contact.php"><button>Contact</button></a></p>
             </div>
         </div>
     </div>
