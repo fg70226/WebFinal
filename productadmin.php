@@ -208,6 +208,7 @@ $products = $product->getAllProducts();
                 <td>{$product['description']}</td>
                 <td>\${$product['price']}</td>
                 <td class='action-links'>
+                    <a href='edit.php?id={$product['id']}' class='edit'>Edit</a>
                     <a href='productAdmin.php?delete={$product['id']}' class='delete' onclick='return confirm(\"Are you sure?\")'>Delete</a>
                 </td>
             </tr>
