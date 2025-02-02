@@ -31,17 +31,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap">
+    <link rel="stylesheet" href="contact.css">
+
+
+</style>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">F&R Luxe</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -108,9 +111,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <hr>
             <p class="copyright">Copyright 2024-F&R Luxe</p>
         </div>
-    <script >
-        document.getElementById('contactForm').addEventListener('submit', function(event){
-   
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event){
+    event.preventDefault();
     let isValid = true; 
 
     const name = document.getElementById('name').value;
@@ -142,9 +145,11 @@ if(!message.trim()){
     isValid = false;
 
 }
-
+if(isValid){
+    alert('Form submitted successfully!')
+    window.location.href = "index.php";
+}
 })
-
-    </script>
+  </script>
 </body>
 </html>
