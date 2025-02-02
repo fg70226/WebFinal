@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $login_result = $user->login($email, $password);
 
     if ($login_result == 'admin') {
-        echo "<script>window.location.href = 'admin.php';</script>";
+        echo "<script>window.location.href = 'index.php';</script>";
     } elseif ($login_result == 'user') {
         echo "<script>window.location.href = 'index.php';</script>";
     } else {

@@ -8,5 +8,5 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'admin') {
 }
 
 
-echo "Welcome, Admin!";
+echo '<script>alert("Welcome Admin ")</script>';
 ?>

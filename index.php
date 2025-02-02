@@ -32,9 +32,10 @@ include "Welcome.php";
             <li><a href="contact.php">Contact</a></li>
             <li class="services"><a href="#"><i class="fa-solid fa-circle-user"></i></a>
                 <ul class="drop-down">
-                    <li><a href="login.php">Log in</a></li>
-                    <li><a href="signup.php">Sign up</a></li>
-                    <li><a href="logout.php">Log out</a></li>
+                <li><a href="admin.php">Admin Panel</a></li>
+                <li><a href="login.php">Log in</a></li>
+                <li><a href="signup.php">Sign up</a></li>
+                <li><a href="logout.php">Log out</a></li>
                 </ul>
             </li>
         </ul>
